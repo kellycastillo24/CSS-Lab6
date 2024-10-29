@@ -47,7 +47,7 @@
 
 .background-image-repeat{
     height: 500px;
-    width: 500px;
+    width: 800px;
    background-image: url(image.png);
    background-size: auto;
 }
@@ -68,14 +68,14 @@
     z-index: -2;
 }
 
-.row{
+.flex-row{
     background-color: fuchsia;
     height: 200px;
     width: 200px;
     flex-direction: row;
 }
 
-.column{
+.flex-column{
     background-color: khaki;
     height: 200px;
     width: 200px;
@@ -86,4 +86,44 @@
     height: 200px;
     width: 200px;
     justify-content: space-evenly;
+    background-color: hotpink;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+    background-color: rgb(189, 162, 253);
+}
+
+.aligned-items{
+    align-items: center;
+    background-color: rgb(95, 126, 154);
+    height: 50px;
+    width: 50px;
+}
+
+.aligned-items2{
+    align-items: center;
+    background-color: rgb(228, 228, 66);
+    height: 40px;
+    width: 40px;
+}
+
+.aligned-items3{
+    align-items: center;
+    background-color: rgb(103, 173, 132);
+    height: 60px;
+    width: 60px;
+}
+
+.align-content{
+    align-content: center;
+}
+
+.flex-grow{
+    background-color: rgb(201, 62, 103);
+}
+
+.flex-grow2{
+    background-color: rgb(154, 222, 199);
+    flex-grow: +2;
 }
